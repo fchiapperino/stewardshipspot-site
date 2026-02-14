@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Book a Call — Stewardship Spot</title>
+  <meta name="description" content="Contact Stewardship Spot and book a free consultation." />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <div class="brand-mark" aria-hidden="true"><span>S</span></div>
+        <div class="brand-name"><b>Stewardship</b> <i>Spot</i></div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="articles/index.html">Articles</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Book a Call</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-secondary" href="articles/index.html">Read the Articles</a>
+        <a class="btn btn-primary" href="#contact">Book a Free Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card">
+          <span class="badge">Contact</span>
+          <h1>Book a free consultation.</h1>
+          <p>
+            Tell us what you’re navigating—deferred maintenance, a project, or a campaign.
+            We’ll help you clarify next steps and craft a trustworthy communication plan.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Send a message</a>
+            <a class="btn btn-secondary" href="#schedule">Schedule a call</a>
+          </div>
+        </div>
+
+        <aside class="hero-side">
+          <h3>What happens next</h3>
+          <p>We’ll respond with a few clarifying questions and suggest a simple 30–45 minute conversation.</p>
+          <div class="kpi">
+            <div class="k"><div class="num">30–45</div><div class="lbl">minutes</div></div>
+            <div class="k"><div class="num">No</div><div class="lbl">pressure</div></div>
+            <div class="k"><div class="num">Clear</div><div class="lbl">next steps</div></div>
+            <div class="k"><div class="num">Pastoral</div><div class="lbl">tone & posture</div></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container" style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; align-items:start">
+        <div class="form">
+          <h2 style="margin:0 0 10px; font-family: var(--font-head)">Send a message</h2>
+          <p class="helper" style="margin-top:0">Demo form (no backend). It will show a success message.</p>
+
+          <form data-demo-form>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="church">Church name</label>
+              <input id="church" name="church" type="text" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="What project or challenge are you trying to fund? What’s the current timeline?" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <div id="formResult" class="helper" style="display:none; margin-top:10px; padding:10px 12px; background: rgba(47,107,91,0.10); border: 1px solid rgba(47,107,91,0.20); border-radius: 14px"></div>
+          </form>
+        </div>
+
+        <div class="card" id="schedule" style="padding:18px">
+          <h2 style="margin:0 0 10px; font-family: var(--font-head)">Schedule a call</h2>
+          <p class="lead" style="margin-top:0">Placeholder button (no calendar integration required).</p>
+          <p>
+            In a production site, this could link to Calendly, Google Appointment Schedules, or your preferred booking tool.
+          </p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:14px">
+            <a class="btn btn-accent" href="#" onclick="alert('Demo placeholder: connect your scheduling link here.'); return false;">Open scheduling page</a>
+            <a class="btn btn-secondary" href="articles/index.html">Read an article first</a>
+          </div>
+
+          <div class="card" style="margin-top:14px; box-shadow:none">
+            <h3>Helpful details to include</h3>
+            <ul>
+              <li>Project type (HVAC, roof, parking lot, renovations, etc.)</li>
+              <li>Estimated cost range and timing</li>
+              <li>Leadership alignment (staff/elders/finance team)</li>
+              <li>Any previous messaging that landed poorly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card" style="background: linear-gradient(180deg, rgba(15,45,63,0.06), rgba(255,255,255,0.96));">
+          <h2>Prefer to start with clarity?</h2>
+          <p class="lead">Here are three strong starting points.</p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap">
+            <a class="btn btn-secondary" href="articles/how-to-fund-deferred-maintenance.html">Deferred Maintenance</a>
+            <a class="btn btn-secondary" href="articles/4-cs-of-campaign-communication.html">Campaign Communication</a>
+            <a class="btn btn-secondary" href="articles/major-donors-without-weirdness.html">Major Donors</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container inner">
+      <div>
+        <div style="font-weight:700; color: var(--text)">Stewardship Spot</div>
+        <div style="max-width:560px">Encouraging, practical resources to help churches fund ministry and facilities with clarity, confidence, and pastoral care.</div>
+      </div>
+      <div style="display:flex; gap:12px; align-items:center">
+        <a href="brand-style-guide.html">Brand Style Guide</a>
+        <span style="opacity:.5">•</span>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

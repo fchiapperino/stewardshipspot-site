@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2D3F"/>
+      <stop offset="1" stop-color="#2F6B5B"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4B740"/>
+      <stop offset="1" stop-color="#FFCF6E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="160" r="110" fill="url(#sun)" opacity="0.95"/>
+  <g opacity="0.16" fill="#ffffff">
+    <circle cx="220" cy="160" r="90"/>
+    <circle cx="320" cy="140" r="60"/>
+    <circle cx="380" cy="190" r="70"/>
+  </g>
+
+  <g transform="translate(210,220)">
+    <rect x="0" y="160" width="1180" height="420" rx="28" fill="#FFFFFF" opacity="0.92"/>
+    <rect x="0" y="160" width="1180" height="420" rx="28" fill="none" stroke="#0F172A" opacity="0.10"/>
+
+    <text x="60" y="250" font-family="Inter, system-ui" font-size="28" fill="#2F6B5B" font-weight="700">Stewardship Spot</text>
+    <text x="60" y="312" font-family="Fraunces, Georgia" font-size="64" fill="#0F2D3F" font-weight="700">Fund Deferred Maintenance</text>
+    <text x="60" y="370" font-family="Inter, system-ui" font-size="26" fill="#475569">A calm plan for HVAC, roofs, and parking lots—without panic.</text>
+
+    <!-- simple chart / backlog bars -->
+    <g transform="translate(60,420)">
+      <text x="0" y="-18" font-family="Inter, system-ui" font-size="18" fill="#475569">Facility backlog (illustrative)</text>
+      <rect x="0" y="0" width="520" height="14" rx="7" fill="#E2E8F0"/>
+      <rect x="0" y="0" width="390" height="14" rx="7" fill="#F4B740"/>
+
+      <rect x="0" y="42" width="520" height="14" rx="7" fill="#E2E8F0"/>
+      <rect x="0" y="42" width="280" height="14" rx="7" fill="#2F6B5B"/>
+
+      <rect x="0" y="84" width="520" height="14" rx="7" fill="#E2E8F0"/>
+      <rect x="0" y="84" width="170" height="14" rx="7" fill="#0F2D3F"/>
+
+      <text x="540" y="12" font-family="Inter, system-ui" font-size="16" fill="#475569">Safety / critical</text>
+      <text x="540" y="54" font-family="Inter, system-ui" font-size="16" fill="#475569">Reliability / risk</text>
+      <text x="540" y="96" font-family="Inter, system-ui" font-size="16" fill="#475569">Nice-to-have</text>
+    </g>
+
+    <!-- icon row -->
+    <g transform="translate(820,232)" opacity="0.95">
+      <rect x="0" y="0" width="300" height="300" rx="26" fill="#0F2D3F" opacity="0.08"/>
+      <g transform="translate(44,46)">
+        <rect x="0" y="0" width="90" height="90" rx="22" fill="#F4B740" opacity="0.20"/>
+        <path d="M24 50h42" stroke="#0F2D3F" stroke-width="6" stroke-linecap="round"/>
+        <path d="M45 26v48" stroke="#0F2D3F" stroke-width="6" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(156,46)">
+        <rect x="0" y="0" width="90" height="90" rx="22" fill="#2F6B5B" opacity="0.18"/>
+        <path d="M22 60c10-18 36-18 46 0" fill="none" stroke="#2F6B5B" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="45" cy="42" r="10" fill="#2F6B5B" opacity="0.85"/>
+      </g>
+      <g transform="translate(44,156)">
+        <rect x="0" y="0" width="202" height="90" rx="22" fill="#0F2D3F" opacity="0.10"/>
+        <path d="M24 54l22-22 18 18 34-34" fill="none" stroke="#0F2D3F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+  </g>
+</svg>

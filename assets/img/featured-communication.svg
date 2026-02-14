@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F8FA"/>
+      <stop offset="1" stop-color="#EAF2EF"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2D3F"/>
+      <stop offset="1" stop-color="#2F6B5B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g transform="translate(180,150)">
+    <rect width="1240" height="600" rx="30" fill="#FFFFFF"/>
+    <rect width="1240" height="600" rx="30" fill="none" stroke="#0F172A" opacity="0.10"/>
+
+    <text x="70" y="130" font-family="Inter, system-ui" font-size="28" fill="#2F6B5B" font-weight="700">Communication Framework</text>
+    <text x="70" y="200" font-family="Fraunces, Georgia" font-size="68" fill="#0F2D3F" font-weight="700">The 4 C’s</text>
+    <text x="70" y="252" font-family="Inter, system-ui" font-size="26" fill="#475569">Concrete • Compelling • Consistent • Consequences</text>
+
+    <!-- 4 cards -->
+    <g transform="translate(70,310)">
+      <g>
+        <rect width="265" height="210" rx="24" fill="url(#g)" opacity="0.08"/>
+        <text x="28" y="62" font-family="Fraunces, Georgia" font-size="40" fill="#0F2D3F" font-weight="700">C1</text>
+        <text x="28" y="104" font-family="Inter, system-ui" font-size="22" fill="#0F2D3F" font-weight="750">Concrete</text>
+        <text x="28" y="142" font-family="Inter, system-ui" font-size="18" fill="#475569">Specifics people can picture.</text>
+      </g>
+      <g transform="translate(295,0)">
+        <rect width="265" height="210" rx="24" fill="#F4B740" opacity="0.18"/>
+        <text x="28" y="62" font-family="Fraunces, Georgia" font-size="40" fill="#0F2D3F" font-weight="700">C2</text>
+        <text x="28" y="104" font-family="Inter, system-ui" font-size="22" fill="#0F2D3F" font-weight="750">Compelling</text>
+        <text x="28" y="142" font-family="Inter, system-ui" font-size="18" fill="#475569">Meaning + mission connection.</text>
+      </g>
+      <g transform="translate(590,0)">
+        <rect width="265" height="210" rx="24" fill="#2F6B5B" opacity="0.12"/>
+        <text x="28" y="62" font-family="Fraunces, Georgia" font-size="40" fill="#0F2D3F" font-weight="700">C3</text>
+        <text x="28" y="104" font-family="Inter, system-ui" font-size="22" fill="#0F2D3F" font-weight="750">Consistent</text>
+        <text x="28" y="142" font-family="Inter, system-ui" font-size="18" fill="#475569">Same message, many moments.</text>
+      </g>
+      <g transform="translate(885,0)">
+        <rect width="265" height="210" rx="24" fill="#0F2D3F" opacity="0.10"/>
+        <text x="28" y="62" font-family="Fraunces, Georgia" font-size="40" fill="#0F2D3F" font-weight="700">C4</text>
+        <text x="28" y="104" font-family="Inter, system-ui" font-size="22" fill="#0F2D3F" font-weight="750">Consequences</text>
+        <text x="28" y="142" font-family="Inter, system-ui" font-size="18" fill="#475569">What changes if we act—or don’t.</text>
+      </g>
+    </g>
+
+    <!-- mini checklist -->
+    <g transform="translate(70,560)">
+      <rect width="1100" height="70" rx="22" fill="#F7F8FA"/>
+      <text x="26" y="44" font-family="Inter, system-ui" font-size="18" fill="#475569">Checklist: One concrete story • One compelling why • One repeated phrase • One clear consequence</text>
+    </g>
+  </g>
+</svg>

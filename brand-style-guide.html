@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Brand Style Guide — Stewardship Spot</title>
+  <meta name="description" content="Colors, typography, buttons, and tone rules for Stewardship Spot." />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <div class="brand-mark" aria-hidden="true"><span>S</span></div>
+        <div class="brand-name"><b>Stewardship</b> <i>Spot</i></div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="articles/index.html">Articles</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Book a Call</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-secondary" href="articles/index.html">Read the Articles</a>
+        <a class="btn btn-primary" href="contact.html">Book a Free Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card">
+          <span class="badge">Style Guide</span>
+          <h1>Stewardship Spot brand standards</h1>
+          <p>Use these to keep every page calm, modern, consistent, and trustworthy.</p>
+          <div class="hero-actions">
+            <a class="btn btn-secondary" href="index.html">Back to Home</a>
+            <a class="btn btn-primary" href="contact.html">Book a Free Consultation</a>
+          </div>
+        </div>
+
+        <aside class="hero-side">
+          <h3>Vibe words</h3>
+          <p><b>Encouraging</b> • <b>Practical</b> • <b>Pastoral</b> • <b>Confident</b> (not salesy)</p>
+          <div class="kpi">
+            <div class="k"><div class="num">Calm</div><div class="lbl">space + clarity</div></div>
+            <div class="k"><div class="num">Modern</div><div class="lbl">clean cards + type</div></div>
+            <div class="k"><div class="num">Trust</div><div class="lbl">plain language</div></div>
+            <div class="k"><div class="num">Action</div><div class="lbl">next steps</div></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Color palette</h2>
+        <p class="lead">Two primaries + one accent. Use consistently.</p>
+        <div class="grid-3">
+          <div class="card">
+            <div style="height:64px; border-radius:14px; background:#0F2D3F"></div>
+            <h3>Primary: Deep Navy</h3>
+            <p><code>#0F2D3F</code> — headers, primary buttons, anchors.</p>
+          </div>
+          <div class="card">
+            <div style="height:64px; border-radius:14px; background:#2F6B5B"></div>
+            <h3>Primary 2: Evergreen</h3>
+            <p><code>#2F6B5B</code> — badges, supportive highlights, section accents.</p>
+          </div>
+          <div class="card">
+            <div style="height:64px; border-radius:14px; background:#F4B740"></div>
+            <h3>Accent: Amber</h3>
+            <p><code>#F4B740</code> — emphasis, icons, “special” calls to action.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Typography</h2>
+        <p class="lead">Readable web fonts: 1 headline + 1 body.</p>
+        <div class="about-box">
+          <div class="card">
+            <h3 style="font-family: var(--font-head); font-size:28px; margin-top:0">Headlines: Fraunces</h3>
+            <p class="helper">Google Font — used for page titles and section headings.</p>
+          </div>
+          <div class="card">
+            <h3 style="font-family: var(--font-body); font-size:20px; margin-top:0">Body: Inter</h3>
+            <p class="helper">Google Font — used for body copy, navigation, buttons.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Buttons (components)</h2>
+        <p class="lead">Keep CTAs simple and consistent.</p>
+        <div class="card">
+          <div style="display:flex; gap:12px; flex-wrap:wrap">
+            <a class="btn btn-primary" href="#" onclick="return false;">Primary CTA</a>
+            <a class="btn btn-secondary" href="#" onclick="return false;">Secondary CTA</a>
+            <a class="btn btn-accent" href="#" onclick="return false;">Accent CTA</a>
+          </div>
+          <p class="helper" style="margin-bottom:0">
+            Rule of thumb: one primary CTA per screen. Use accent CTA sparingly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Content tone rules</h2>
+        <p class="lead">Sound pastoral and confident—never gimmicky.</p>
+        <div class="grid-3">
+          <div class="card">
+            <h3>Do</h3>
+            <ul>
+              <li>Use plain, concrete language.</li>
+              <li>Lead with mission, then money.</li>
+              <li>Give people time and multiple pathways to participate.</li>
+              <li>Use 1–2 scripture references naturally (not as a hammer).</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Don’t</h3>
+            <ul>
+              <li>Use manipulation (guilt, urgency theater).</li>
+              <li>Overpromise (“this will change everything”).</li>
+              <li>Hide numbers—clarity builds trust.</li>
+              <li>Make major gifts feel like a shakedown.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Signature phrases</h3>
+            <ul>
+              <li>“Here’s the need, here’s the plan.”</li>
+              <li>“We’re inviting participation, not pressure.”</li>
+              <li>“Clarity is kindness.”</li>
+              <li>“Steady leadership builds trust.”</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container inner">
+      <div>
+        <div style="font-weight:700; color: var(--text)">Stewardship Spot</div>
+        <div style="max-width:560px">Encouraging, practical resources to help churches fund ministry and facilities with clarity, confidence, and pastoral care.</div>
+      </div>
+      <div style="display:flex; gap:12px; align-items:center">
+        <a href="brand-style-guide.html">Brand Style Guide</a>
+        <span style="opacity:.5">•</span>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

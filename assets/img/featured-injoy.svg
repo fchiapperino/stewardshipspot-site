@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Featured image: campaign guidance and support">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2D3F"/>
+      <stop offset="1" stop-color="#2F6B5B"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- soft shapes -->
+  <circle cx="220" cy="520" r="140" fill="#F4B740" opacity="0.22" filter="url(#soft)"/>
+  <circle cx="980" cy="160" r="170" fill="#FFFFFF" opacity="0.10" filter="url(#soft)"/>
+
+  <!-- main card -->
+  <rect x="110" y="115" width="980" height="445" rx="26" fill="#ffffff" opacity="0.10" stroke="#ffffff" stroke-opacity="0.20"/>
+
+  <!-- simple roadmap line -->
+  <path d="M210 420 C 340 260, 460 480, 600 320 S 870 290, 990 240" fill="none" stroke="#F4B740" stroke-width="10" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- milestones -->
+  <g fill="#ffffff" opacity="0.95">
+    <circle cx="210" cy="420" r="16"/>
+    <circle cx="600" cy="320" r="16"/>
+    <circle cx="990" cy="240" r="16"/>
+  </g>
+
+  <!-- support rings -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="10">
+    <circle cx="600" cy="320" r="86"/>
+    <circle cx="600" cy="320" r="128" stroke-opacity="0.30"/>
+  </g>
+
+  <!-- small labels (kept generic) -->
+  <g font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" fill="#ffffff" opacity="0.92">
+    <text x="210" y="470" font-size="24" text-anchor="middle">Clarity</text>
+    <text x="600" y="470" font-size="24" text-anchor="middle">Alignment</text>
+    <text x="990" y="470" font-size="24" text-anchor="middle">Momentum</text>
+  </g>
+
+  <g font-family="Fraunces, Georgia, serif" fill="#ffffff" opacity="0.95">
+    <text x="170" y="215" font-size="52">Campaign guidance</text>
+    <text x="170" y="275" font-size="34" opacity="0.9">A steady plan beats a stressed scramble</text>
+  </g>
+</svg>
