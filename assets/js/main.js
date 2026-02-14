@@ -10,17 +10,4 @@
     if(isMatch) a.setAttribute('aria-current','page');
   });
 
-  // Fake form submit for demo
-  const form = document.querySelector('[data-demo-form]');
-  if(form){
-    form.addEventListener('submit', (e)=>{
-      e.preventDefault();
-      const box = document.querySelector('#formResult');
-      if(box){
-        box.style.display='block';
-        box.textContent = 'Thanks — message received (demo). In a real site, this would send to your email/CRM.';
-      }
-      form.reset();
-    });
-  }
 })();

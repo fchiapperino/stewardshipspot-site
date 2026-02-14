@@ -67,9 +67,10 @@
       <div class="container" style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; align-items:start">
         <div class="form">
           <h2 style="margin:0 0 10px; font-family: var(--font-head)">Send a message</h2>
-          <p class="helper" style="margin-top:0">Demo form (no backend). It will show a success message.</p>
+          <p class="helper" style="margin-top:0">Send a note and we’ll follow up quickly.</p>
 
-          <form data-demo-form>
+          <form name="contact" method="POST" data-netlify="true" action="/thanks/">
+            <input type="hidden" name="form-name" value="contact" />
             <div class="field">
               <label for="name">Name</label>
               <input id="name" name="name" type="text" autocomplete="name" required />
@@ -93,12 +94,12 @@
 
         <div class="card" id="schedule" style="padding:18px">
           <h2 style="margin:0 0 10px; font-family: var(--font-head)">Schedule a call</h2>
-          <p class="lead" style="margin-top:0">Placeholder button (no calendar integration required).</p>
+          <p class="lead" style="margin-top:0">Prefer a 30–45 minute call?</p>
           <p>
-            In a production site, this could link to Calendly, Google Appointment Schedules, or your preferred booking tool.
+            Scheduling link coming soon. For now, use the message form and include a few windows that work for you.
           </p>
           <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:14px">
-            <a class="btn btn-accent" href="#" onclick="alert('Demo placeholder: connect your scheduling link here.'); return false;">Open scheduling page</a>
+            <a class="btn btn-accent" href="#contact">Send a message</a>
             <a class="btn btn-secondary" href="articles/index.html">Read an article first</a>
           </div>
 
