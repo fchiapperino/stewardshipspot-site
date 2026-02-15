@@ -275,3 +275,24 @@ textarea{min-height: 120px; resize:vertical}
   html{scroll-behavior:auto}
   .btn{transition:none}
 }
+
+/* About Frank — headshot */
+.about-frank-photo{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 18px;
+}
+.about-frank-photo img{
+  width: 220px;
+  height: 220px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.14);
+}
+
+@media (max-width: 880px){
+  .about-frank-photo{order:-1}
+  .about-frank-photo img{width: 180px; height: 180px}
+}
