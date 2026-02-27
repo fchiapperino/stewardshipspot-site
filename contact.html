@@ -69,7 +69,7 @@
           <h2 style="margin:0 0 10px; font-family: var(--font-head)">Send a message</h2>
           <p class="helper" style="margin-top:0">Send a note and we’ll follow up quickly.</p>
 
-          <form name="contact" method="POST" action="/.netlify/functions/contact">
+          <form name="contact" method="POST" action="/api/contact">
             <input type="hidden" name="form-name" value="contact" />
             <!-- Honeypot: bots tend to fill this; humans won't see it -->
             <p style="display:none">
