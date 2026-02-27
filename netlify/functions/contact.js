@@ -10,10 +10,20 @@ export async function handler(event) {
 
   // Parse form-encoded body
   const params = new URLSearchParams(event.body || '');
+  const botField = (params.get('bot-field') || '').trim();
   const name = (params.get('name') || '').trim();
   const email = (params.get('email') || '').trim();
   const church = (params.get('church') || '').trim();
   const message = (params.get('message') || '').trim();
+
+  // Honeypot: if filled, treat as spam and silently succeed.
+  if (botField) {
+    return {
+      statusCode: 302,
+      headers: { Location: '/thanks.html' },
+      body: ''
+    };
+  }
 
   const missing = [];
   if (!name) missing.push('name');

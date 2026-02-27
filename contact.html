@@ -71,6 +71,10 @@
 
           <form name="contact" method="POST" action="/.netlify/functions/contact">
             <input type="hidden" name="form-name" value="contact" />
+            <!-- Honeypot: bots tend to fill this; humans won't see it -->
+            <p style="display:none">
+              <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
             <div class="field">
               <label for="name">Name</label>
               <input id="name" name="name" type="text" autocomplete="name" required />
@@ -87,6 +91,7 @@
               <label for="message">Message</label>
               <textarea id="message" name="message" placeholder="What project or challenge are you trying to fund? What’s the current timeline?" required></textarea>
             </div>
+
             <button class="btn btn-primary" type="submit">Send message</button>
             <div id="formResult" class="helper" style="display:none; margin-top:10px; padding:10px 12px; background: rgba(47,107,91,0.10); border: 1px solid rgba(47,107,91,0.20); border-radius: 14px"></div>
           </form>
