@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "your-giving-report-trust",
+    "title": "Your Giving Report Might Be Undermining Trust. Here’s How to Fix It.",
+    "badge": "Finance",
+    "excerpt": "Three reporting habits that quietly reduce trust, and a simple template you can copy and paste.",
+    "url": "/articles/your-giving-report-trust",
+    "image": "/assets/img/featured-finance.svg",
+    "date": "2026-02-27"
+  },
+  {
+    "slug": "how-to-fund-deferred-maintenance",
+    "title": "How to Fund Deferred Maintenance Without Killing Momentum",
+    "badge": "Facilities",
+    "excerpt": "HVAC, parking lots, roofs, and backlogs—how to communicate need with confidence (not desperation).",
+    "url": "/articles/how-to-fund-deferred-maintenance",
+    "image": "/assets/img/featured-maintenance.svg",
+    "date": "2026-02-15"
+  },
+  {
+    "slug": "4-cs-of-campaign-communication",
+    "title": "The 4 C’s of Campaign Communication (and why most churches miss #4)",
+    "badge": "Communication",
+    "excerpt": "Concrete, Compelling, Consistent, Consequences—plus practical examples and a mini checklist.",
+    "url": "/articles/4-cs-of-campaign-communication",
+    "image": "/assets/img/featured-communication.svg",
+    "date": "2026-02-15"
+  },
+  {
+    "slug": "major-donors-without-weirdness",
+    "title": "Major Donors: How to Invite Big Gifts Without Pressure or Weirdness",
+    "badge": "Major Gifts",
+    "excerpt": "A relationship-first posture, vision alignment, and a simple follow-up plan that respects people.",
+    "url": "/articles/major-donors-without-weirdness",
+    "image": "/assets/img/featured-major-donors.svg",
+    "date": "2026-02-15"
+  },
+  {
+    "slug": "injoy-vs-diy-capital-campaign",
+    "title": "Why Churches Win When They Don’t Run a Capital Campaign Alone",
+    "badge": "Capital Campaigns",
+    "excerpt": "A steady process protects clarity, alignment, momentum, and trust during high-stakes projects.",
+    "url": "/articles/injoy-vs-diy-capital-campaign",
+    "image": "/assets/img/featured-injoy.svg",
+    "date": "2026-02-15"
+  }
+]
