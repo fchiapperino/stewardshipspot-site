@@ -232,8 +232,8 @@ a:hover{text-decoration:underline}
   padding: 16px;
 }
 .sidebar h3{margin:0 0 10px; font-size:14px; letter-spacing:0.02em; text-transform:uppercase; color:var(--muted)}
-.sidebar a{display:block; padding:10px 10px; border-radius:12px; color:var(--text)}
-.sidebar a:hover{background: rgba(15,45,63,0.06); text-decoration:none}
+.sidebar a:not(.btn){display:block; padding:10px 10px; border-radius:12px; color:var(--text)}
+.sidebar a:not(.btn):hover{background: rgba(15,45,63,0.06); text-decoration:none}
 
 /* Forms */
 .form{
