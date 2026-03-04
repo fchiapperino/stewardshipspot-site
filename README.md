@@ -1,6 +1,6 @@
 # Stewardship Spot (Website)
 
-Static website for Stewardship Spot (Netlify deploy) — pages + long-form articles.
+Static website for Stewardship Spot (Cloudflare Pages deploy) — pages + long-form articles.
 
 ## Run locally
 
