@@ -1,0 +1,12 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" rx="48" fill="#0F2D3F"/>
+  <circle cx="965" cy="148" r="96" fill="#F4B740" opacity="0.95"/>
+  <circle cx="220" cy="520" r="140" fill="#2F6B5B" opacity="0.85"/>
+  <rect x="170" y="150" width="860" height="420" rx="36" fill="#FFFFFF" opacity="0.10"/>
+  <g fill="#FFFFFF">
+    <text x="220" y="265" font-family="Inter, system-ui, -apple-system" font-size="58" font-weight="700">Church Giving FAQ</text>
+    <text x="220" y="340" font-family="Inter, system-ui, -apple-system" font-size="40" font-weight="700">Reduce awkwardness.</text>
+    <text x="220" y="400" font-family="Inter, system-ui, -apple-system" font-size="40" font-weight="700">Increase participation.</text>
+    <text x="220" y="470" font-family="Inter, system-ui, -apple-system" font-size="26" opacity="0.9">Copy/paste template • Clear answers • Trust-building tone</text>
+  </g>
+</svg>
