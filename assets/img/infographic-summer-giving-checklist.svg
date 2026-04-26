@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" rx="28" fill="#ffffff"/>
+  <rect x="36" y="36" width="1128" height="648" rx="24" fill="#F7FAFC" stroke="#D9E3EC"/>
+  <text x="82" y="116" fill="#16202A" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Summer giving preparation checklist</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="26" fill="#16202A">
+    <rect x="80" y="168" width="36" height="36" rx="8" fill="#E8A54B"/><text x="138" y="196">Review last summer’s giving pattern</text>
+    <rect x="80" y="252" width="36" height="36" rx="8" fill="#E8A54B"/><text x="138" y="280">Estimate a realistic summer revenue range</text>
+    <rect x="80" y="336" width="36" height="36" rx="8" fill="#E8A54B"/><text x="138" y="364">Refresh recurring giving instructions</text>
+    <rect x="80" y="420" width="36" height="36" rx="8" fill="#E8A54B"/><text x="138" y="448">Prepare mission-focused summer reminders</text>
+    <rect x="80" y="504" width="36" height="36" rx="8" fill="#E8A54B"/><text x="138" y="532">Coach leaders not to panic over one weak week</text>
+  </g>
+  <rect x="708" y="166" width="366" height="384" rx="24" fill="#16202A"/>
+  <text x="748" y="224" fill="#FFF8EE" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Healthy summer mindset</text>
+  <text x="748" y="286" fill="#D7E0E8" font-family="Inter, Arial, sans-serif" font-size="22">• Expect some softness</text>
+  <text x="748" y="332" fill="#D7E0E8" font-family="Inter, Arial, sans-serif" font-size="22">• Watch trends, not one Sunday</text>
+  <text x="748" y="378" fill="#D7E0E8" font-family="Inter, Arial, sans-serif" font-size="22">• Keep generosity tied to mission</text>
+  <text x="748" y="424" fill="#D7E0E8" font-family="Inter, Arial, sans-serif" font-size="22">• Build systems before stress rises</text>
+  <text x="748" y="470" fill="#D7E0E8" font-family="Inter, Arial, sans-serif" font-size="22">• Lead with clarity and calm</text>
+</svg>

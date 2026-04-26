@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" rx="36" fill="#FFF8EE"/>
+  <rect x="66" y="74" width="1468" height="752" rx="28" fill="#ffffff" stroke="#E9D8BD"/>
+  <text x="120" y="170" fill="#16202A" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Prepare before summer giving softens</text>
+  <text x="120" y="220" fill="#536070" font-family="Inter, Arial, sans-serif" font-size="28">Forecast. Strengthen recurring giving. Communicate calmly. Keep mission in front of people.</text>
+  <rect x="120" y="282" width="620" height="410" rx="26" fill="#F7FAFC" stroke="#D9E3EC"/>
+  <text x="158" y="338" fill="#16202A" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Typical seasonal pattern</text>
+  <path d="M180 604C250 510 320 468 390 430C460 392 530 378 600 408C670 438 700 500 676 604" stroke="#E8A54B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M182 606H684" stroke="#D9E3EC" stroke-width="4"/>
+  <circle cx="390" cy="430" r="10" fill="#E8A54B"/>
+  <circle cx="600" cy="408" r="10" fill="#E8A54B"/>
+  <text x="182" y="650" fill="#536070" font-family="Inter, Arial, sans-serif" font-size="24">Spring</text>
+  <text x="455" y="650" fill="#536070" font-family="Inter, Arial, sans-serif" font-size="24">Summer dip</text>
+  <text x="610" y="650" fill="#536070" font-family="Inter, Arial, sans-serif" font-size="24">Recovery</text>
+  <rect x="792" y="282" width="688" height="410" rx="26" fill="#16202A"/>
+  <text x="842" y="346" fill="#FFF8EE" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Three moves that help</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <circle cx="848" cy="420" r="22" fill="#E8A54B"/><text x="840" y="428" fill="#16202A" font-size="22" font-weight="800">1</text>
+    <text x="892" y="428" fill="#FFF8EE" font-size="28" font-weight="700">Forecast the likely dip</text>
+    <text x="892" y="464" fill="#D7E0E8" font-size="22">Review last year’s pattern and estimate the range now.</text>
+    <circle cx="848" cy="522" r="22" fill="#E8A54B"/><text x="838" y="530" fill="#16202A" font-size="22" font-weight="800">2</text>
+    <text x="892" y="530" fill="#FFF8EE" font-size="28" font-weight="700">Strengthen recurring giving</text>
+    <text x="892" y="566" fill="#D7E0E8" font-size="22">Make online and automated generosity simple and visible.</text>
+    <circle cx="848" cy="624" r="22" fill="#E8A54B"/><text x="838" y="632" fill="#16202A" font-size="22" font-weight="800">3</text>
+    <text x="892" y="632" fill="#FFF8EE" font-size="28" font-weight="700">Communicate with calm confidence</text>
+    <text x="892" y="668" fill="#D7E0E8" font-size="22">Tie generosity to ministry impact, not budget panic.</text>
+  </g>
+</svg>
