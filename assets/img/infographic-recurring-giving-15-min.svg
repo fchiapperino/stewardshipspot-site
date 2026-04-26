@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="60" y="90" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#1F4E79">Recurring Giving in 15 Minutes</text>
+  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333333">Make consistency easy when summer routines change.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="80" y="200" width="1040" height="360" rx="18" fill="#F7F9FB" stroke="#D9E2EC"/>
+
+    <circle cx="170" cy="290" r="44" fill="#2E8B57"/>
+    <text x="170" y="300" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">1</text>
+    <text x="240" y="280" font-size="26" font-weight="700" fill="#1F4E79">Choose frequency</text>
+    <text x="240" y="315" font-size="22" fill="#333">Weekly or monthly, whichever fits your rhythm.</text>
+
+    <path d="M 520 290 L 610 290" stroke="#9FB3C8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 610 290 L 590 275" stroke="#9FB3C8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 610 290 L 590 305" stroke="#9FB3C8" stroke-width="8" stroke-linecap="round"/>
+
+    <circle cx="700" cy="290" r="44" fill="#2E8B57"/>
+    <text x="700" y="300" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">2</text>
+    <text x="770" y="280" font-size="26" font-weight="700" fill="#1F4E79">Set amount</text>
+    <text x="770" y="315" font-size="22" fill="#333">Pick a faithful number you can sustain.</text>
+
+    <circle cx="170" cy="430" r="44" fill="#2E8B57"/>
+    <text x="170" y="440" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">3</text>
+    <text x="240" y="420" font-size="26" font-weight="700" fill="#1F4E79">Choose method</text>
+    <text x="240" y="455" font-size="22" fill="#333">Card or bank transfer, whatever is easiest.</text>
+
+    <path d="M 520 430 L 610 430" stroke="#9FB3C8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 610 430 L 590 415" stroke="#9FB3C8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 610 430 L 590 445" stroke="#9FB3C8" stroke-width="8" stroke-linecap="round"/>
+
+    <circle cx="700" cy="430" r="44" fill="#2E8B57"/>
+    <text x="700" y="440" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">4</text>
+    <text x="770" y="420" font-size="26" font-weight="700" fill="#1F4E79">Confirm + celebrate</text>
+    <text x="770" y="455" font-size="22" fill="#333">You just created stability for ministry.</text>
+  </g>
+
+  <rect x="60" y="590" width="1080" height="60" rx="14" fill="#ffffff" stroke="#D9E2EC"/>
+  <text x="90" y="628" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333"><tspan font-weight="700" fill="#1F4E79">Church tip:</tspan> Make “Recurring” the first option on your giving page, and remind people before travel season.</text>
+</svg>

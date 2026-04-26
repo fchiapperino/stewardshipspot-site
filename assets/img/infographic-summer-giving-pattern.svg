@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <text x="60" y="90" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#1F4E79">Your Summer Giving Pattern (Typical)</text>
+  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333333">Use 2–3 years of history to find your real dip, then plan cash flow and communication early.</text>
+
+  <rect x="80" y="180" width="1040" height="380" fill="#F7F9FB" stroke="#D9E2EC"/>
+
+  <text x="95" y="575" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">May</text>
+  <text x="350" y="575" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Jun</text>
+  <text x="605" y="575" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Jul</text>
+  <text x="860" y="575" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Aug</text>
+
+  <text x="90" y="210" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Giving</text>
+
+  <path d="M 120 300 C 260 260, 340 260, 420 290 C 520 330, 560 390, 650 410 C 740 430, 820 420, 900 380 C 980 340, 1040 320, 1100 310" fill="none" stroke="#2E8B57" stroke-width="10" stroke-linecap="round"/>
+
+  <circle cx="120" cy="300" r="8" fill="#2E8B57"/>
+  <circle cx="420" cy="290" r="8" fill="#2E8B57"/>
+  <circle cx="650" cy="410" r="8" fill="#2E8B57"/>
+  <circle cx="900" cy="380" r="8" fill="#2E8B57"/>
+  <circle cx="1100" cy="310" r="8" fill="#2E8B57"/>
+
+  <rect x="120" y="220" width="320" height="90" rx="12" fill="#ffffff" stroke="#D9E2EC"/>
+  <text x="145" y="255" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1F4E79">Plan ahead</text>
+  <text x="145" y="282" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">4–6 weeks before summer travel</text>
+
+  <rect x="640" y="445" width="360" height="92" rx="12" fill="#ffffff" stroke="#D9E2EC"/>
+  <text x="665" y="478" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1F4E79">Typical low point</text>
+  <text x="665" y="505" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Late June to mid July (varies)</text>
+
+  <rect x="780" y="245" width="340" height="92" rx="12" fill="#ffffff" stroke="#D9E2EC"/>
+  <text x="805" y="278" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1F4E79">Recovery</text>
+  <text x="805" y="305" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Often strengthens in August</text>
+
+  <text x="60" y="640" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#666">Tip: Track giving weekly and compare to last year, not just to your budget.</text>
+</svg>
