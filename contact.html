@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Request a Free Consultation — Stewardship Spot</title>
-  <meta name="description" content="Request a free consultation with Frank Chiapperino. Send a message and he’ll reply with available times for a phone or Zoom call." />
+  <title>Start a Conversation at Leading Sharp | Stewardship Spot</title>
+  <meta name="description" content="Stewardship Spot is becoming Leading Sharp. Start a conversation with Frank about your church’s stewardship, project, or leadership questions." />
 
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,95 +29,29 @@
 
       <div class="header-cta">
         <a class="btn btn-secondary" href="articles/index.html">Read the Articles</a>
-        <a class="btn btn-primary" href="#contact">Request a Free Consultation</a>
+        <a class="btn btn-primary" href="https://leadingsharp.com/contact">Start a Conversation</a>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="contact">
       <div class="container hero-grid">
         <div class="hero-card">
-          <span class="badge">Contact</span>
-          <h1>Request a free consultation.</h1>
-          <p>
-            Tell us what you’re navigating—deferred maintenance, a project, or a campaign.
-            We’ll help you clarify next steps and craft a trustworthy communication plan.
-          </p>
+          <span class="badge">A new chapter</span>
+          <h1>Stewardship Spot is becoming Leading Sharp.</h1>
+          <p>For help with your church’s stewardship, project, or leadership questions, start a conversation with Frank at Leading Sharp.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Send a message</a>
-            <a class="btn btn-secondary" href="#next">What happens next</a>
+            <a class="btn btn-primary" href="https://leadingsharp.com/contact">Start a Conversation at Leading Sharp</a>
+            <a class="btn btn-secondary" href="articles/index.html">Read the Stewardship Spot Articles</a>
           </div>
         </div>
-
         <aside class="hero-side">
-          <h3>What happens next</h3>
-          <p>We’ll respond with a few clarifying questions and suggest a simple 30–45 minute conversation.</p>
-          <div class="kpi">
-            <div class="k"><div class="num">30–45</div><div class="lbl">minutes</div></div>
-            <div class="k"><div class="num">No</div><div class="lbl">pressure</div></div>
-            <div class="k"><div class="num">Clear</div><div class="lbl">next steps</div></div>
-            <div class="k"><div class="num">Pastoral</div><div class="lbl">tone & posture</div></div>
-          </div>
+          <h2>Continue the conversation</h2>
+          <p>The contact form has moved to Leading Sharp. Tell Frank a little about where you are and what you would like help thinking through.</p>
+          <p>Reaching out does not add you to the Journal email list or commit you to coaching.</p>
+          <p>The Stewardship Spot articles remain available here.</p>
         </aside>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container" style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; align-items:start">
-        <div class="form">
-          <h2 style="margin:0 0 10px; font-family: var(--font-head)">Send a message</h2>
-          <p class="helper" style="margin-top:0">Send a note and we’ll follow up quickly.</p>
-
-          <form name="contact" method="POST" action="/api/contact">
-            <input type="hidden" name="form-name" value="contact" />
-            <!-- Honeypot: bots tend to fill this; humans won't see it -->
-            <p style="display:none">
-              <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-            </p>
-            <div class="field">
-              <label for="name">Name</label>
-              <input id="name" name="name" type="text" autocomplete="name" required />
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input id="email" name="email" type="email" autocomplete="email" required />
-            </div>
-            <div class="field">
-              <label for="church">Church name</label>
-              <input id="church" name="church" type="text" required />
-            </div>
-            <div class="field">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="What project or challenge are you trying to fund? What’s the current timeline?" required></textarea>
-            </div>
-
-            <button class="btn btn-primary" type="submit">Send message</button>
-            <div id="formResult" class="helper" style="display:none; margin-top:10px; padding:10px 12px; background: rgba(47,107,91,0.10); border: 1px solid rgba(47,107,91,0.20); border-radius: 14px"></div>
-          </form>
-        </div>
-
-        <div class="card" id="next" style="padding:18px">
-          <h2 style="margin:0 0 10px; font-family: var(--font-head)">What happens next</h2>
-          <p class="lead" style="margin-top:0">Prefer a 30–45 minute call? Great—this is simple.</p>
-          <p>
-            Send a message above, and I’ll reply with a few available times for a 30–45 minute phone or Zoom call.
-          </p>
-          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:14px">
-            <a class="btn btn-accent" href="#contact">Send a message</a>
-            <a class="btn btn-secondary" href="articles/index.html">Read an article while you wait</a>
-          </div>
-
-          <div class="card" style="margin-top:14px; box-shadow:none">
-            <h3>Helpful details to include</h3>
-            <ul>
-              <li>Project type (HVAC, roof, parking lot, renovations, etc.)</li>
-              <li>Estimated cost range and timing</li>
-              <li>Leadership alignment (staff/elders/finance team)</li>
-              <li>Any previous messaging that landed poorly</li>
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
 
